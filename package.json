@@ -10,10 +10,13 @@
     "lint:oxlint": "oxlint ."
   },
   "devDependencies": {
-    "@earendil-works/pi-coding-agent": "0.82.1",
-    "@types/node": "26.1.2",
-    "oxfmt": "0.61.0",
-    "oxlint": "1.76.0",
+    "@earendil-works/pi-coding-agent": "0.82.0",
+    "@types/node": "26.1.1",
+    "oxfmt": "0.60.0",
+    "oxlint": "1.75.0",
     "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "force": "^0.0.3"
   }
 }
