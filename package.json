@@ -3,6 +3,7 @@
   "private": true,
   "description": "Monorepo of Pi coding agent extensions",
   "license": "MIT",
+  "packageManager": "pnpm@10.12.3",
   "scripts": {
     "lint": "pnpm run lint:oxlint && pnpm run lint:oxfmt",
     "lint:oxfmt": "oxfmt --check .",
