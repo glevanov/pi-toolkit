@@ -1,0 +1,7 @@
+{
+  "name": "pi-toolkit",
+  "private": true,
+  "description": "Monorepo of Pi coding agent extensions",
+  "license": "MIT",
+  "workspaces": ["packages/*"]
+}

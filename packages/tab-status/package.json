@@ -1,0 +1,19 @@
+{
+  "name": "@glevanov/tab-status",
+  "version": "1.0.0",
+  "description": "Terminal tab title + desktop notification status for the Pi coding agent",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "Grigoriy Glevanov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glevanov/pi-toolkit.git",
+    "directory": "packages/tab-status"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
