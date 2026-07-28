@@ -3,5 +3,16 @@
   "private": true,
   "description": "Monorepo of Pi coding agent extensions",
   "license": "MIT",
-  "workspaces": ["packages/*"]
+  "scripts": {
+    "lint": "pnpm run lint:oxlint && pnpm run lint:oxfmt",
+    "lint:oxfmt": "oxfmt --check .",
+    "lint:oxlint": "oxlint ."
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.82.1",
+    "@types/node": "26.1.2",
+    "oxfmt": "0.61.0",
+    "oxlint": "1.76.0",
+    "typescript": "7.0.2"
+  }
 }

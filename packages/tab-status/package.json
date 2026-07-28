@@ -13,6 +13,7 @@
   "pi": {
     "extensions": ["./extensions"]
   },
+  "type": "module",
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
   }

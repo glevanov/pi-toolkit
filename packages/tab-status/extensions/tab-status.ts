@@ -13,7 +13,7 @@ const ESC = "\x1b";
 const ST = `${ESC}\\`; // string terminator
 
 function sanitize(text: string): string {
-  return text.replace(/[\x00-\x1f\x7f-\x9f]/g, " ").slice(0, 256);
+  return text.replace(/[\p{Cc}]/gu, " ").slice(0, 256);
 }
 
 export default function (pi: ExtensionAPI) {
