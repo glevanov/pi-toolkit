@@ -24,4 +24,4 @@ Merge with project-specific instructions. Be concise; keep simple judgments or v
 ## Working with Github
 
 - Prefer gh cli.
-- Default to read-only mode; never post, edit or delete comments, reviews or attachments without an explicit user instruction.
+- Default to read-only mode; never open or close PRs, post, edit or delete comments, reviews or attachments without an explicit user instruction.
