@@ -1,10 +1,13 @@
 ---
 description: Deslop code comments
+argument-hint: "Extra instructions"
 ---
 
 # Deslop code comments
 
 Check the diff against trunk branch and audit all added code comments. Delete unnecessary ones. Prefer to keep as few comments as possible. Consider if remaining comments should be reworded or shortened.
+
+Extra instructions (if any): $@
 
 ## Delete vs. keep
 Delete a comment that:
