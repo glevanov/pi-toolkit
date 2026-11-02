@@ -25,3 +25,7 @@ Merge with project-specific instructions. Be concise; keep simple judgments or v
 
 - Prefer gh cli.
 - Default to read-only mode; never open or close PRs, post, edit or delete comments, reviews or attachments without an explicit user instruction.
+- Never push to `master`, `main` or `trunk` branches. Require an explicit override if the user requests this.
+- Verify that you have correct upstream before pushing.
+- Wnen opening a PR, use repository's PR template if one is available.
+- Before updating a PR description, check for existing user edits; default to merging and preserving intent, not overwriting.
